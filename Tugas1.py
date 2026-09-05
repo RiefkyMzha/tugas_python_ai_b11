@@ -43,12 +43,16 @@ luas = panjang * lebar
 keliling = 2 * (panjang + lebar)
 lebar_persegi = (keliling / 2) - panjang
 panjang_persegi = luas / lebar
+pembagian_bulat = panjang // 3
+sisa_bagi = panjang % 3
 
 print(f"Panjang = {panjang} \nLebar = {lebar}")
 print("Luas persegi panjang :", luas)
 print("Keliling persegi panjang :", keliling)
-print("Lebar persegi :", lebar_persegi)
-print("Panjang persegi :", panjang_persegi)
+print("Lebar persegi panjang:", lebar_persegi)
+print("Panjang persegi panjang:", panjang_persegi)
+print("Pembagian bulat panjang persegi dibagi 3:", pembagian_bulat)
+print("Sisa panjang persegi dibagi 3:", sisa_bagi)
 
 # List dan Akses Elemen
 print("\n==== LIST DAN AKSES ELEMEN ====")
@@ -66,14 +70,14 @@ print("Setelah dihapus :", daftar_mata_kuliah)
 mata_kuliah_terurut = sorted(daftar_mata_kuliah)
 print("Daftar matkul terurut :", mata_kuliah_terurut)
 
-matkul_terhapus = daftar_mata_kuliah.pop()
-print("Item yang dipop   :", matkul_terhapus)
-print("Setelah pop       :", daftar_mata_kuliah)
+mata_kuliah_terhapus = daftar_mata_kuliah.pop()
+print("Item yang dipop :", mata_kuliah_terhapus)
+print("Setelah pop :", daftar_mata_kuliah)
 
 # Penggunaan Input dari User
 print("\n==== PENGGUNAAN INPUT DARI USER ====")
-nama_input = input("Masukkan nama Anda: ")
-nim_input = input("Masukkan NIM Anda: ")
+nama_input = input("Masukkan nama Anda : ")
+nim_input = input("Masukkan NIM Anda : ")
 
 perkenalan = f"Halo, nama saya {nama_input} dengan NIM {nim_input}"
 print(perkenalan)
