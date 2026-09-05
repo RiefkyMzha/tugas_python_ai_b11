@@ -1,5 +1,5 @@
 # Deklarasi Variabel dan Tipe Data 
-print("\n==== DEKLARASI VARIABEL DAN TIPE DATA ====")
+print("==== DEKLARASI VARIABEL DAN TIPE DATA ====")
 nama_mahasiswa = "Riefky Muhammad Haychal Mirzha"
 nim = 8020230022
 ipk = 3.98
