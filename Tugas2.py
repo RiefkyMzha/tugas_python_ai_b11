@@ -70,7 +70,7 @@ print("Intersection (&):", mata_kuliah_wajib & mata_kuliah_pilihan)
 print("Difference (-):", mata_kuliah_wajib - mata_kuliah_pilihan)
 print("Symmetric difference (^):", mata_kuliah_wajib ^ mata_kuliah_pilihan)
 
-# Dictionary – key-value pairs
+# Dictionary – key value pairs
 print("\n=== Dictionary – key-value pairs ===")
 
 mahasiswa = {
